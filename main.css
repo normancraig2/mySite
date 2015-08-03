@@ -1,0 +1,119 @@
+/*********************************
+Body
+*********************************/
+
+body, html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Prociono';
+	background-color: #404040;	
+}
+
+
+/*********************************
+Navigation
+*********************************/
+
+.glyphicon-home {
+	padding: 8px;
+}
+
+.glyphicon-user {
+	padding: 8px;
+}
+
+.glyphicon-earphone {
+	padding: 8px;
+}
+
+#navigation {
+	padding: 10px;
+	padding-top: 20px;
+	text-align: right;
+}
+
+#navigation li {
+	display: inline;
+	text-decoration: none;
+	list-style-type: none;
+	padding-right: 30px;
+}
+
+#navigation a:link {
+	color: #E8E8E8;
+}
+
+#navigation a:visited {
+	color: #E8E8E8;
+}
+
+#navigation a:hover {
+	color: #E8E8E8;
+}
+
+#navigation a:active {
+	color: #E8E8E8;
+}
+
+/*********************************
+Section
+*********************************/
+
+section {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../images/background2.jpg") #fff no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+.background h1 {
+	text-align: center;
+	font-size: 3em;
+	color: #E8E8E8;
+	padding-top: 250px;
+	text-shadow: 2px 2px 2px gray;
+}
+
+.background h3 {
+	text-align: center;
+	color: #E8E8E8;
+	padding-top: 50px;
+	text-shadow: 2px 2px 2px gray;
+	padding-bottom: 40px;
+}
+
+/*********************************
+Footer
+*********************************/
+
+footer {
+	padding-top: 30px;
+}
+
+.row {
+	text-align: center;
+}
+
+#rights {
+	color: white;
+}
+
+#facebook {
+	margin: 0 auto;
+	width: 40px;
+
+}
+
+
+/**********************************
+Media Queries
+**********************************/
+
+@media screen and (max-width: 400px;) {
+	#navigation li {
+		font-size: 400px !important;
+	}
+
+}
